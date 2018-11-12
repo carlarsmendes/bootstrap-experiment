@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/> 
+    <title>My HTML & CSS Journey</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <style>
+        h1
+            {   font-family: 'Montserrat Subrayada', sans-serif;
+                text-align: center;
+                font-size: 60px;
+                color:teal;
+        }
+        h2 {    margin:4px;
+                padding:5px;
+                color:teal;
+                
+        }
+        body
+            {   font-family: 'Ubuntu', sans-serif;
+        }
+        h1,h2,h3,h4
+            {   text-transform:capitalize;
+                
+        }
+        .nav_bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+        .nav_bar li {
+    display:inline-block;
+    margin-right: 1px;
+    
+}
+        .nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px 12px 50px;
+    text-decoration: none;
+}
+    .nav_bar li a:hover {
+        background-color: #111;
+    
+}
+ 
+/* And this code creates a horizontal bar, with spacing in between each menu item!*/
+ 
+
+        
+
+    </style>
+
+</head>
+<body>
+<div class="nav_bar">
+                <ul>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#html">HTML&CSS</a></li>
+                  <li><a href="#">My Projects</a></li>
+                  <li><a href="#contacts">Contacts</a></li>                  
+                </ul>
+</div>
+
+
+<section id="about">
+    <h1>My HTML & CSS Journey</h1>
+    <p>This page is a comprehensive journey through my <em>dwellings</em> into HTML, CSS & <em>(Maybe one day)</em> JavaScript</p>
+    <p>I felt like I needed a space where I could fully apply all the little things that I'm learning - More than just writing things down on a piece of paper, or OneNote.<p>
+    <p>I definitely needed to put it into practice <strong>immediately.</strong></p>
+</section>
+
+<section id="html">
+        <h2>Starting on the HTML Ropes</h2>
+
+        <h3>The Basics of the HTML History</h3>
+            <ul>
+                <li>Created by Tim Berners-Lee, 1989/1990</li>
+                <li>HyperText Markup Language - HTML</li>
+                <li>Uniform Resource Identifier - URI/URL</li>
+                <li>Hypertext Transfer Protocol - HTTP</li>
+            </ul>
+        <h3>Different Types of Tags</h3>
+                <ul>
+                <li>Content HTML Tags</li>
+                <li>Structural HTML Tags</li>
+                <li>Meta Tags <em>(Content your PC sees, you don't)</em></li>
+
+                </ul>
+        <h4>Frequently used Content HTML Tags</h4>
+            <ul>
+                    <li>h1-h6 - Headlines <em>("h1" defines the most important heading and "h6" defines the least important heading)</em></li>
+                    <li>p - Paragraphs</li>
+                    <li>strong - Bold</li>
+                    <li>em - Italic</li>
+                    <li>br - Line Break</li>
+                    <li>a + href - Defines a link <em><a href="https://www.w3schools.com/tags/tag_a.asp">More Here</a></em></li>
+                    <li>address - Defines the contact information for the author/owner of a document or an article<em><a href="https://www.w3schools.com/tags/tag_address.asp">More Here</a></em></li>
+                    W3Schools - <a href="https://www.w3schools.com/html/html_basic.asp">HTML Basics</a>                     
+            </ul>
+        <h4>Frequently used Structural HTML Tags</h4>
+            <ul>
+                    <li>html5 <em></em></li>
+                    <li>main - The site's main area</li>
+                    <li>nav - Navigation</li>
+                    <li>aside - opens a side bar</li>
+                    <li>article - specifies independent, self-contained content</li>
+                    <li>footer - Defines the footer</li>
+                    <li>section - Defines a different section of the page</li>
+                    <li>div - Define sections of the website; "Wrappers" of related content</li>
+                    W3Schools - <a href="https://www.w3schools.com/html/html_basic.asp">HTML Basics</a> 
+            </ul>
+        <h4>Frequently used Meta HTML Tags</h4>
+            <ul>
+                    <li>!doctype html - tells the computer the kind of document it’s looking at (in this case, it’s an HTML document) <em></em></li>
+                    <li>html<em></em></li>
+                    <li>head & body</li>
+                    <li>title - Although not technically a meta tag, the title tag specifies the title of your site (which is displayed on the browser tab)</li>
+                    <br>Skillcrush - <a href="https://learn.skillcrush.com/module-7/all-about-meta-tags/" target="_blank">Meta Tags</a> 
+            </ul>
+
+        <h3>Essentials on Images</h3>    
+        <p style="text-align:center;"><img src="https://78.media.tumblr.com/cb3991b830f651864e9ede01e94b332e/tumblr_or31ptYQca1rhf0i3o1_640.jpg" alt="Ira_Glasse_Quote" width="250" /a></p>
+        <ul>
+                <li>The image tag includes src="", alt="", and width/height </li>
+                <li>Your source can be somewhere in the web - another server - or another folder, which is very common</li>
+                <li>Alt is the alternative text, usefol for accessibility, in case the browser doesn't load the image and SEO practices</li>
+                <li>Closing tag is /></li>
+                <li>Formats supported by most browsers are: jpg, png, gif and bmp and less than 1Mb</li>
+                <li>To have an image as a link you should write -> "< a href="" target="_blank" > "here goes your link" < / a >"</li>
+                <li>You can configure your images in the "head" esction, under "style"</li>                 
+                W3Schools - <a href="https://www.w3schools.com/html/html_images.asp">Image Basics</a>
+        </ul>
+    
+    </section>
+
+    <section id="contacts">
+
+
+    </section>    
+
+            <footer>
+    
+    <address>
+        This website - and whatever it should become - was proudly created by Carla Mendes, Start Date 08/August/2018, while living in Sunny Lisbon
+    </address>   
+</footer>
+</body>
+
+</html>

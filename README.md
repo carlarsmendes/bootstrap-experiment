@@ -1,2 +1,3 @@
 # new-beginning
-This will be my first experimental webpage and I do hope to figure it out quickly!
+This will be my first experimental webpage
+First started on: 12th November 2018, in sunny Lisbon

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Example</title>
+    <title>Bootstrap Experiment</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,7 +20,7 @@
     <div class="container">
         <div class="jumbotron">
             <h1 class="text-center page-header">The Bootstrap Experiment</h1>
-            <p>I am a self-taught developer. I mostly depending on free and online resources to learn and my biggest tools are my projects. This is one of them, where I am testing my Bootstrap skills</p>
+            <p>I am a self-taught developer. I mostly depend on free and online resources to learn and my biggest tools are my projects. This is one of them, where I am testing my Bootstrap skills</p>
             <p>I started building this page so that I could practice bootstrap after I became fluent with HTML, CSS and Responsive Web Design. This is the ongoing result!</p>
             <p>I update it frequently as I learn, based on the principle that we learn better and faster by working on projects.</p>
             <p><em>(By the way, this grey-coloured section has a class called <code>.jumbotron</code>. Not sure how I feel about it yet)</em></p>
@@ -28,8 +28,8 @@
             <h2>Bootstrap Typography Tags</h2>
                 <p>The tag <mark>"mark"</mark> is used to highlight text.</p>
                 <p>The abbreviations (such as <abbr class="initialism">FFC</abbr>) are used with the tag "abbr" and the class<code>.initialism</code></p>
-                <p>The blockquote element is styled a different way, below. Also, the tag ".blockquote-reverse" class shows the quote on the right: <blockquote>I'm not afraid of storms, for I'm learning to sail my ship"</blockquote></p>
-                <p><blockquote class="blockquote-reverse">I'm not afraid of storms, for I'm learning to sail my ship"</blockquote></p>
+                <p>The blockquote element is styled a different way, below. Also, the tag ".blockquote-reverse" class shows the quote on the right: <blockquote>I'm not afraid of storms, for I'm learning to sail my ship" Louisa May Alcott</blockquote></p>
+                <p><blockquote class="blockquote-reverse">I'm not afraid of storms, for I'm learning to sail my ship" Louisa May Alcott</blockquote></p>
                 <p><code>The "code" element is styled like this</code></p>
                 <p>And this <kbd>kbd</kbd> tag is how it will look if you need to write some <kbd>keyboard shortcut</kbd></p>
                 <ul>Classes - Contextual Colors and Backgrounds
@@ -169,6 +169,124 @@
     </div>
     <h2>Bootstrap Buttons</h2>
     <h3>Button Styles</h3>
+    <p>Bootstrap provides different styles of buttons, which can be used on links, buttons or input objects. They can be:</p><ul><li>Different sizes</li>
+        <li>Block Level (or content-size)</li>
+        <li>Active/Disabled (or ontent-size)</li>
+        </ul> 
+    <div class="row text-center">
+            <div class="col-sm-6"><button type="button" class="btn text-center">Basic</button></div>
+            <div class="col-sm-6"><button type="button" class="btn btn-default text-center">Default</button></div>
+    </div>
+    <br>
+    <div class="row text-center">
+            <div class="col-sm-2"><button type="button" class="btn btn-primary text-center">Primary</button></div>
+            <div class="col-sm-2"><button type="button" class="btn btn-success">Success</button></div>
+            <div class="col-sm-2"><button type="button" class="btn btn-info">Info</button></div>
+            <div class="col-sm-2"><button type="button" class="btn btn-warning">Warning</button></div>
+            <div class="col-sm-2"><button type="button" class="btn btn-danger">Danger</button></div>
+            <div class="col-sm-2"><button type="button" class="btn btn-link">Link</button></div>
+    </div>
+    <br>
+    <div class="row text-center">
+            <div class="col-sm-3"><button type="button" class="btn btn-primary btn-lg">Large</button></div>
+            <div class="col-sm-3"><button type="button" class="btn btn-primary btn-md">Medium</button></div>
+            <div class="col-sm-3"><button type="button" class="btn btn-primary btn-sm">Small</button></div>
+            <div class="col-sm-3"><button type="button" class="btn btn-primary btn-xs">XSmall</button></div>
+    </div>
+    <br>
+    <button type="button" class="btn btn-primary btn-block">Block Level Button<br></button>
+    <br>
+    <div class="row text-center">
+            <div class="col-sm-6"><button type="button" class="btn btn-primary active">Active Primary</button></div>
+            <div class="col-sm-6"><button type="button" class="btn btn-primary disabled">Disabled Primary</button></div>
+          
+    </div>
+    <br>
+    <h3>Button Groups</h3>
+    <p>Bootstrap allows you to group a series of buttons together (on a single line) in a button group. You should use the <code>.btn-group</code> class on the div surrounding the buttons. The buttons can also be resized as a group, applying the <code>.btn-group-lg|sm|xs</code> classes appropriately</p>
+    <div class="btn-group">
+            <button type="button" class="btn btn-primary">Button1</button>
+            <button type="button" class="btn btn-primary">Button2</button>
+            <button type="button" class="btn btn-primary">Button3</button>
+          </div>
+    <p>Other classes which can be used in buttons groups are: .btn-group-vertical, to create a vertical button group; .btn-group-justified, to span your buttons the entire width of the screen; and you can also create dropdown menus with together or split buttons. The whole list is <a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp">here</a> </p>
+    <div class="btn-group">
+            <button type="button" class="btn btn-primary">Button1</button>
+            <button type="button" class="btn btn-primary">Button2</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              Button3 <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Option1</a></li>
+                <li><a href="#">Option2</a></li>
+              </ul>
+            </div>
+           </div>
+    <h2>Glyphicons</h2>
+    <p>Bootstrap includes 260 glyphs from the Glyphicon Halflings set. Glyphicons Halflings are normally not available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, you should include a link back to Glyphicons whenever possible.</p>
+    <p>You can use glyphicons in text, buttons, toolbars, navigation, or forms. The whole list is <a href="https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp">here.</a></p>
+    
+          <div class="row text-center">
+                <div class="col-sm-2"><button type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-search"></span> Search
+                      </button></div>
+                <div class="col-sm-2"><button type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-pencil"></span> Write Me
+                      </button></div>
+                <div class="col-sm-2"><button type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-question-sign"></span> Ask Me
+                      </button></div>
+                <div class="col-sm-2"><button type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-plane"></span> Where am I
+                      </button></div>
+                <div class="col-sm-2"><button type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-shopping-cart"></span> I wanna buy it
+                      </button></div>
+                <div class="col-sm-2"><button type="button" class="btn btn-info">
+                        <span class="glyphicon glyphicon-sunglasses"></span> The cool Glyphicon
+                      </button></div>
+        </div>
+    <h2>Bootstrap Badges, Labels and Progress Bars</h2>
+    <p><strong>Badges</strong> are numerical indicators of items associated with a links (Nr. of comments). You can use the <code>.badge</code> class within span elements.</p>
+    <p><strong>Labels</strong> are used to provide information about something (eg.: New article/Item).    Labels can also show contextual classes.</p>
+    
+    
+
+
+<div class="row text-center">
+        <div class="col-sm-4"><a href="#">News <span class="badge">5</span></a><br>
+        </div>
+        <div class="col-sm-4">
+                <a href="#">Comments <span class="badge">10</span></a><br>
+        </div>
+        <div class="col-sm-4">
+                <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+    </div>
+
+</div>
+<br>
+<span class="label label-default">Default Label</span>
+<span class="label label-primary">Primary Label</span>
+<span class="label label-success">Success Label</span>
+<span class="label label-info">Info Label</span>
+<span class="label label-warning">Warning Label</span>
+<span class="label label-danger">Danger Label</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div> 
 </body>
